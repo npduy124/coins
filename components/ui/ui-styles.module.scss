@@ -1,0 +1,17 @@
+// Header
+.topHeader {
+    background-color: rgb(254, 254, 254);
+    position: relative;
+    padding-bottom: 10px;
+
+    &::after {
+        content: "";
+        height: 10px;
+        display: block;
+        background-image: linear-gradient(to top, rgb(231, 231, 231), rgb(254, 254, 254));
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}
